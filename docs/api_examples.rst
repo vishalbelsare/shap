@@ -5,16 +5,22 @@
 API Examples
 ----------------
 
-These examples parallel the namespace structure of SHAP. Each object or function in SHAP has a 
+These examples parallel the namespace structure of SHAP. Each object or function in SHAP has a
 corresponding example notebook here that demonstrates its API usage. The source notebooks
-are `available on GitHub <https://github.com/slundberg/shap/tree/master/notebooks/api_examples>`_.
+are `available on GitHub <https://github.com/shap/shap/tree/master/notebooks/api_examples>`_.
 
+
+.. toctree::
+    :glob:
+    :maxdepth: 1
+
+    example_notebooks/api_examples/migrating-to-new-api.ipynb
 
 .. _explainers_examples:
 
 explainers
 ==========
-.. Examples for members of :ref:`shap.explainers <explainers_api>`.
+*See also:* :ref:`Explainer API Reference <explainers_api>`.
 
 .. toctree::
     :glob:
@@ -27,7 +33,7 @@ explainers
 
 maskers
 =======
-.. Examples for members of :ref:`shap.maskers <maskers_api>`.
+*See also:* :ref:`Masker API Reference <maskers_api>`.
 
 .. toctree::
     :glob:
@@ -42,18 +48,21 @@ models
 ======
 .. Examples for members of :ref:`shap.models <models_api>`.
 
-.. toctree::
-    :glob:
-    :maxdepth: 1
+Work in progress.
 
-    example_notebooks/api_examples/models/*
+.. TODO: Uncomment this toctree once we have at least one example to share
+    .. toctree::
+        :glob:
+        :maxdepth: 1
+
+        example_notebooks/api_examples/models/*
 
 
 .. _plots_examples:
 
 plots
 =====
-.. Examples for members of :ref:`shap.plots <plots_api>`.
+*See also:* :ref:`Plot API Reference <plots_api>`.
 
 .. toctree::
     :glob:
